@@ -4,12 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body,html {
   font-family: Montserrat;
   font-size: 16px;
 }
-
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -17,9 +15,7 @@ body,html {
     'main '
     'footer ';
   max-width: 100%;
- 
 }
- 
 main{
   display: grid;
   grid-area: main;
@@ -29,20 +25,16 @@ main{
 header{
 grid-area: header;
 }
-
 article {
   grid-area: article;
   width: 50vw;
   margin: 2rem 1rem 2rem 5rem;
 }
-
 aside {
   grid-area: aside;
   width: 25vw;
   margin: 2rem 17vw 2rem 0;
-
 }
-
 footer {
   grid-area: footer;
 }
@@ -112,7 +104,7 @@ header > h1{
   height: 27%;
 }
 
-.presentation>div {
+.presentation > div {
   height: 42vh;
   display: flex;
   flex-direction: column;
@@ -135,14 +127,12 @@ section > .title-green-h2 > span{
   margin-top: .7rem;
   cursor: pointer;
 }
-
 .recent-post{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 2rem;
 }
-
 .cards{
   box-shadow: 0rem .6rem 1.2rem #c1c1c1;
   border-radius: 1.4rem;
@@ -157,7 +147,7 @@ section > .title-green-h2 > span{
   line-height: 1.2rem;
   margin-top: 1rem;
 }
-.card-content > h3{
+.card-content > h4{
   margin-top: 1rem;
 }
 
@@ -193,3 +183,5 @@ section > .title-green-h2 > span{
   font-weight: 600;
   font-size: 1rem;
 }
+
+/* ASIDE END*/
