@@ -188,7 +188,7 @@ header>h1 {
 /* ASIDE */
 .aside-card {
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
   box-shadow: 0rem .6rem 1.2rem #c1c1c1;
   border-radius: .6rem;
   padding: .7rem;

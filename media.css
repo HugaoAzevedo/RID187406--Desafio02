@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1601px) and (max-width: 2560px){
+@media only screen and (min-width: 1901px) and (max-width: 2560px){
     article {
         width: 65vw;
         margin: 2rem auto;
@@ -24,7 +24,7 @@
         font-size: 2rem;
       }
       h5 {
-        font-size: 2rem;
+        font-size: 2em;
       }
       p {
         font-size: 1.5rem;
@@ -47,32 +47,36 @@
     .aside-card{
         padding: 1.4rem;
     }
+    .aside-card > img {
+      width: 13vw;
+    }
     .aside-card > div > p {
-        font-size: 1.5em;
-      }
+        font-size: 1.2em;
+    }
       .nav-category>p {
         font-size: 1.5em;
-      }  
+    }  
     /* ASIDE END */
 
 }
 @media only screen and (min-width: 1441px) and (max-width: 1600px) {
- 
+
 }
 @media only screen and (max-width: 1440px) and (min-width: 1025px) {
   /*INITIAL PRESETS */
   main {
-    margin: 1.5rem 2rem 1.5rem 2rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
     width: auto;
   }
   article {
-    width: auto;
+    width: 60vw;
     margin: 0;
   }
 
   aside {
-    width: auto;
-    margin: 0 0 0 0.5rem;
+    width: 35vw;
+    margin: 0 0 0 .5rem;
+    box-sizing: border-box;
   }
 
   h1 {
@@ -85,7 +89,7 @@
     font-size: 1.5rem;
   }
   h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   h5 {
     font-size: 1rem;
@@ -94,7 +98,7 @@
     font-size: 0.8rem;
   }
   .title-green-h3 {
-    padding: 0.5rem;
+    padding: .5;
   }
   header > h1 {
     margin-left: 0;
@@ -107,10 +111,10 @@
   }
   /* ASIDE */
   .aside-card {
-    padding: 1rem;
+    padding: .7rem;
   }
   .aside-card > img {
-    width: 45%;
+    width: 15.5vw;
   }
   /* ASIDE END */
 }
